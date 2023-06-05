@@ -1,55 +1,57 @@
 # COMMUNITY SLEEP ANALYSIS
 ---
-![](PIC.GITHUB.jpg)
+![](SLEEPHOME.jpeg)
 ---
 ## INTRODUCTION
-Welcome to **DANANALYTICS**, This reports reveals the salary pattern for a tech company in Nigeria across various department and staff.
-**_DISCLAIMER: This analysis does not reflect the true situation of any known company in Nigeria_**
+Welcome to **DANANALYTICS**, This reports reveals the sleep and stress pattern for a community in Nigeria.
+**_DISCLAIMER: This analysis does not reflect the true situation of any community in Nigeria.  It is for learning purposes_**
 
 ## PROBLEM STATEMENT
-**DANANALYTICS** were tasked to dive into their salary data to dsicover:
-1. Average salary.
-2. Total number of staff.
-3. Average year of Experience per department.
-4. Any other relevant data driven insight into their salary pattern.
+**DANANALYTICS** were tasked to dive into their sleep and stresss data of the community to dsicover:
+1. Average Age
+2. Total number of people in the community.
+3. Highlight of Occupaton.
+4. Average daily step 
+5. Average Sleep Duration
+6. Any other relevant data driven insight into their salary pattern.
 
 ## SKILLS DEMOSTRATED
 - Data Cleaning and transformation
 - User friendly dashboard design.
+- Slicers design and incorporation
+- Action Button
+- Power Query
 
 ## DATA SOURCE
 The data used in this analyis was downloaded from Kaggle database
 
 ## DATA TRANSFORMATION
 
-Power query was used to clean and transformed thi data. some irrelevant columns were deleted and the years of experience ws regrouped in this format
+Power query was used to clean and transformed this data. Some Columns were deleted and some where reclassified to further understand and analyse the data set. the conditional column in Power Query was used to reclassify the specific column
 
-1. less than or equals 5 years  = Entry Level
-2. less than or equals 10 years = Excutive Trainee
-3. less than or equals 15 years = Executive Director
-4. less than or equals 20 years = Senior Executive
-5. less than or equals 25 years = Decision Making Board
+1. Age Classification: Young, Adult and Old
+2. Sleep Duration:: Long, ShorT AND Normal
+3. Sleep Quality: Average, Not Sound and Sound
+4. Stress Level: High, Low and Normal
 
 see pictures below
-Dirty dataset     |     Transformed Datset with Power query
-:-----------------:|:-----------------:
-![](EXCEL.GITHUB.png)|![](POWER.GITHUB.png)
+Dirty dataset     |     Transformed Datset with Power query 1 |  Transformed Datset with Power query 2
+:-----------------:|:-----------------:|:-----------------:
+![](EXCELSLEEP.png)|![](SLEEPPQ1.png)| ![](SLEEPPQ2)
 
 ## MODELLING
 No specific modelling was used as the dataset had only one table.
 
 ## ANALYSIS AND VISUALISATION
 **DANANALYTICS** discovered that 
-1. Average salary = 115,000.00
-2. Total number of staff = 6701
-3. Average year of Experience per department = 3 years
-4. other relevant data driven insight into their salary pattern revealed that
+1. Average Age = 42 years
+2. Total number of people in the community = 374
+3. Highlight of Occupation = 11
+4. Average daily step = 7000
+5. Average Sleep Duration = 7 hours
 
-- 14 staff does not identify as either male or female
-- there are 191 jobs available in the company.
- 
  check below for the dashboard picture.
- ![](SALARY.GITHUB.png)
+ ![](.png)
 
 ## Conclusion/Recommendation.
 
