@@ -37,7 +37,7 @@ Power query was used to clean and transformed this data. Some Columns were delet
 see pictures below
 Dirty dataset     |     Transformed Datset with Power query 1 |  Transformed Datset with Power query 2
 :-----------------:|:-----------------:|:-----------------:
-![](EXCELSLEEP.png)|![](SLEEPPQ1.png)| ![](SLEEPPQ2)
+![](EXCELSLEEP.png)|![](SLEEPPQ1.png)| ![](SLEEPPQ2.png)
 
 ## MODELLING
 No specific modelling was used as the dataset had only one table.
