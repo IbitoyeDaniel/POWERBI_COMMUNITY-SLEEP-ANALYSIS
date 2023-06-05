@@ -37,7 +37,7 @@ Power query was used to clean and transformed this data. Some Columns were delet
 see pictures below
 Dirty dataset     |     Transformed Datset with Power query 1 |  Transformed Datset with Power query 2
 :-----------------:|:-----------------:|:-----------------:
-![](EXCELSLEEP.png)|![](SLEEPPQ1.png)| ![](SLEEPPQ2.png)
+![](EXCELSLEEP.png)|![](SLEEPPQ1.png)| ![](SPLEEPPQ2.png)
 
 ## MODELLING
 No specific modelling was used as the dataset had only one table.
@@ -51,7 +51,8 @@ No specific modelling was used as the dataset had only one table.
 5. Average Sleep Duration = 7 hours
 
  check below for the dashboard picture.
- ![](.png)
+ ---
+ ![](SLEEP.png)
 
 ## Conclusion/Recommendation.
 
